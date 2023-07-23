@@ -23,7 +23,7 @@ addBtn.onclick=function() {
   
 }
 function taskValidation() {
-    let rgex = /^[a-zA-Z0-9]$/
+    let rgex = /^[a-zA-Z0-9]{1,50}$/
     let taskValidat = addTask.value;
     if(rgex.test(taskValidat)) {
         console.log("match")
