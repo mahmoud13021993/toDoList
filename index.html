@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Site For Dropshiping"/>
+    <meta name="keywords" content="seo, search engine optimization"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DANIELS
+    </title>
+     <!-- Normalize File -->
+    <link rel="stylesheet" href="css/normalize.css" />
+     <!-- Bootstrap Library -->
+     <link rel="stylesheet" href="css/bootstrap.min.css" />
+      <!-- Font Awesome Library -->
+     <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Victor+Mono:wght@100;200;300;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/toDoList.css" />
+  </head>
+  <body>
+<div class="container mt-3">
+  <div class="wellcom">
+    <p class="fw-bold fs-4">Hello, Jassmin  <span class="fs-2 fw-bolder text-danger">Good Afternoon !</span></p>
+  </div>
+  <div class="dplist-title mt-5 d-flex justify-content-center align-items-baseline ">
+    <p class="me-3 fs-1 fw-bolder"> To Do List </p>
+    <div class="img"><img src="./images/title.png" alt="todo-title-image"/></div>
+  </div>
+    <!-- input -->
+    <div class="input row mt-3 m-auto d-flex justify-content-center">
+      <div class="col-sm-12 col-md-8 col-lg-6 d-flex">
+        <input type="text" id="addTask" onkeyup="taskValidation()" class="form-control  col-sm-12 rounded-pill px-3 py-3" placeholder="Add New Task"> <button id="addBtn" class="add-btn btn btn-danger rounded-pill px-5">Add</button>
+
+      </div>
+      <p id="message-empty" class="text-center mt-1 text-danger"></p>
+     </div>
+
+     <!-- output -->
+     <div class="output mt-3  p-3 rounded-2">
+      <table class="table  p-3">
+        <tbody id="tbody">
+
+        </tbody>
+       
+      </table>
+     </div>
+</div>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/toDoList.js"></script>
+  </body>
+</html>
